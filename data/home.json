@@ -1,0 +1,330 @@
+[
+  {
+    "title": "Current Affiliation",
+    "paragraphs": [
+      "Assistant Professor, Department of Computer Science, Faculty of Informatics, Shizuoka University",
+      "E-mail: maekawa-tomoyuki@inf.shizuoka.ac.jp",
+      [
+        "Note: I am not currently accepting research students.",
+        {
+          "break": true
+        },
+        " If you are looking for a potential supervisor at Shizuoka University, read the application guide carefully: ",
+        {
+          "text": " [Link] ",
+          "href": "https://www.shizuoka.ac.jp/english/subject/graduate/stg/index.html",
+          "target": "_blank"
+        }
+      ]
+    ]
+  },
+  {
+    "title": "Education",
+    "items": [
+      {
+        "title": "Ph.D. (Interdisciplinary Information Studies)",
+        "paragraphs": [
+          "Graduate School of Interdisciplinary Information Studies, The University of Tokyo, 2022",
+          "Thesis title: Cognitive Analysis of Information Presentation Based on Uncertainty of Winning or Losing to Interest Audience in Watching Sports (スポーツ観戦における観客の興味を引き出すための，勝敗の不確実性に基づいた情報提示の認知科学的検討)"
+        ]
+      },
+      {
+        "title": "M.S. (Information Science and Technology)",
+        "paragraphs": [
+          "Graduate School of Information Science and Technology, The University of Tokyo, 2016"
+        ]
+      },
+      {
+        "title": "B.S. (Engineering)",
+        "paragraphs": [
+          "Faculty of Engineering, The University of Tokyo, 2014"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Research Experience",
+    "items": [
+      {
+        "title": "Shizuoka University",
+        "paragraphs": [
+          "Assistant Professor",
+          "2024 - Present"
+        ]
+      },
+      {
+        "title": "Keio University",
+        "paragraphs": [
+          "Researcher",
+          "2020 - 2024"
+        ]
+      },
+      {
+        "title": "The University of Tokyo",
+        "paragraphs": [
+          "Academic Support Specialist",
+          "2019 - 2020"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Teaching Experience",
+    "items": [
+      {
+        "title": "Shizuoka University",
+        "paragraphs": [
+          "Machine Learning",
+          "2024"
+        ]
+      },
+      {
+        "title": "Nihon University",
+        "paragraphs": [
+          "Practice in Information Science 2",
+          "2021 - 2022"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Awards",
+    "items": [
+      {
+        "title": "第26回ヒューマンインタフェース学会論文賞",
+        "paragraphs": [
+          "I received this award as the fifth author of a paper co-authored with Dr. Binyu Wang, Mr. Masanari Ichikawa, Mr. Shota Shiiku, Dr. Jun Ichikawa, and Prof. Yugo Takeuchi."
+        ]
+      },
+      {
+        "title": "Best Paper Awards at KST2018",
+        "paragraphs": [
+          "I received this award as the first author of a paper co-authored with Dr. Hidehito Honda and Prof. Kazuhiro Ueda."
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Grants",
+    "items": [
+      {
+        "title": "2025年 しのはら財団 研究助成",
+        "paragraphs": [
+          "AIチャットボットの持続的な利用を促す自己肯定的ユーザインタフェースの研究",
+          "2025 - 2026"
+        ]
+      },
+      {
+        "title": "CREST Colab",
+        "paragraphs": [
+          "Development and Evaluation of Manglish Automatic Question Generation and Scoring Technology (マンガリッシュ自動問題生成・採点技術の開発と評価)",
+          "Collaborative research with Dr. Satoshi Yazawa and Dr. Yuma Kadokura.",
+          "2023"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Talks",
+    "items": [
+      {
+        "title": "CogSci 2026 Virtual Flash Talk",
+        "paragraphs": [
+          "\"Is It Good to Say 'Thank You' to ChatGPT?\"",
+          "2026"
+        ]
+      },
+      {
+        "title": "CogSci Meetup 2026 in Hamamatsu",
+        "paragraphs": [
+          "\"Is It Good to Say 'Thank You' to ChatGPT?\"",
+          "2026"
+        ]
+      },
+      {
+        "title": "ImAI Symposium: Symposium for Intelligent media and Advanced Interaction 2026",
+        "paragraphs": [
+          "\"ChatGPT produces subjectively high-quality responses if you say 'Thank you' to her\"",
+          "2026"
+        ]
+      },
+      {
+        "title": "HAI Horizons: Showcasing Early-Career Research from Non-Native English Speakers",
+        "paragraphs": [
+          "\"Locally-Coherent Dialogue with Multitasker: A Case Study\"",
+          "2025"
+        ]
+      },
+      {
+        "title": "Cognitive Communication Workshop 2025",
+        "paragraphs": [
+          "\"Information Systems Adapting to Individual Subjectivity and Preferences by Utilizing the Multidimensionality of Image Latent Space\"",
+          "2025"
+        ]
+      },
+      {
+        "title": "CREST \"Creation and development of core technologies interfacing human and information environments\" Final International Symposium",
+        "paragraphs": [
+          "\"Estimation of dress preference from a few samples\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Symposium on Contextual Interaction for Mutual Understanding",
+        "paragraphs": [
+          "\"Information Contextualization Using a Large Language Model\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Cognitive Communication Workshop 2024",
+        "paragraphs": [
+          "\"Can AI engage in dialogue between humans?\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Denso poster exhibition \"A Day at Shizuoka University\"",
+        "paragraphs": [
+          "\"Estimation of mutual understanding by using large language models\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Invited talk at Kyoto Institute of Technology",
+        "paragraphs": [
+          "\"Use cases and problems of LLMs in education and research\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Online Workshop \"Demonstration of a communication enhancement system based on contextual information processing technology\"",
+        "paragraphs": [
+          "\"Contextual information processing using a large language model\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "JST CREST Imai/Yamada Team Joint Symposium 2024 \"New Artificial Intelligence Brought About by Research on Trust and Context\"",
+        "paragraphs": [
+          "\"Identifying utterances that may cause discrepancies in conversation if overlooked\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "Sony CSL lab tour",
+        "paragraphs": [
+          "\"Natural Language Representation of Context Using a Large Language Model\"",
+          "2024"
+        ]
+      },
+      {
+        "title": "JST CREST Imai and Yamada Team Joint Symposium \"New AI Brought About by Research on Trust and Context\"",
+        "paragraphs": [
+          "\"Computational mechanisms of context connection and their application to linguistic communication\"",
+          "2022"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Professional Memberships",
+    "items": [
+      {
+        "title": "Member of the Human Interface Society",
+        "paragraphs": [
+          "2026 - Present"
+        ]
+      },
+      {
+        "title": "Member of the Association for Computing Machinery",
+        "paragraphs": [
+          "2025 - Present"
+        ]
+      },
+      {
+        "title": "Member of the Japanese Society for Artificial Intelligence",
+        "paragraphs": [
+          "2024 - Present"
+        ]
+      },
+      {
+        "title": "Member of the Japanese Cognitive Science Society",
+        "paragraphs": [
+          "2021 - Present"
+        ]
+      },
+      {
+        "title": "Member of IEEE",
+        "paragraphs": [
+          "2017 - 2024"
+        ]
+      }
+    ]
+  },
+  {
+    "title": "Peer Review",
+    "items": [
+      {
+        "paragraphs": [
+          "自然言語処理"
+        ]
+      },
+      {
+        "paragraphs": [
+          "IEEE Computer Society’s flagship conference on Computers, Software, and Applications (COMPSAC)"
+        ]
+      },
+      {
+        "paragraphs": [
+          "IEICE Transactions on Information and Systems"
+        ]
+      },
+      {
+        "paragraphs": [
+          "ヒューマンインタフェース学会論文誌"
+        ]
+      },
+      {
+        "paragraphs": [
+          "Advanced Robotics"
+        ]
+      },
+      {
+        "paragraphs": [
+          "ACM Conference on Intelligent User Interfaces (IUI)"
+        ]
+      },
+      {
+        "paragraphs": [
+          "人工知能学会論文誌"
+        ]
+      },
+      {
+        "paragraphs": [
+          "International Conference on Human-Agent Interaction (HAI)"
+        ]
+      },
+      {
+        "paragraphs": [
+          "SICE Journal of Control, Measurement, and System Integration"
+        ]
+      },
+      {
+        "paragraphs": [
+          "IEEE International Conference on Robot and Human Interactive Communication (RO-MAN)"
+        ]
+      },
+      {
+        "paragraphs": [
+          "日本ロボット学会誌"
+        ]
+      },
+      {
+        "paragraphs": [
+          "International Journal of Sports Economics"
+        ]
+      }
+    ]
+  }
+]

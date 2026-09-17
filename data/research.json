@@ -1,0 +1,120 @@
+[
+  {
+    "title": "Context-aware language processing",
+    "images": [
+      {
+        "src": "imgs/context1.png",
+        "alt": "An example of a dialogue between two speakers. In statement 9, speaker A means that she finds Tokyo a very attractive place.",
+        "width": "300px"
+      },
+      {
+        "src": "imgs/context2.png",
+        "alt": "A listener who missed statements 7 and 8 might interpret statement 9 to mean that mountainous areas are attractive to speaker A.",
+        "width": "300px"
+      }
+    ],
+    "group_images": true,
+    "paragraphs": [
+      "A sentence is interpreted based on its context. The interpretation of a sentence can vary depending on the context in which it is used. I propose a method for illustrating the influence of natural-language context in a clear and intuitive manner. Specifically, a large language model (LLM) can rephrase a sentence to make it more specific, incorporating words from the context. The rephrased sentence conveys the interpretation of the original sentence in its context using natural language."
+    ],
+    "related_heading": "Related work",
+    "related_work": [
+      {
+        "id": "journal-03"
+      },
+      {
+        "id": "international-05"
+      },
+      {
+        "id": "journal-05"
+      }
+    ]
+  },
+  {
+    "title": "Interactive AI systems",
+    "images": [
+      {
+        "src": "imgs/interactive.png",
+        "alt": "An example of SCAINs Presenter in use. SCAINs Presenter displays statements whose interpretation is ambiguous or whose omission may lead to subsequent misunderstandings. In (a), the man misses part of the woman's statement and asks her to repeat it. In (b), the man checks the statement he missed using SCAINs Presenter, and communication proceeds smoothly.",
+        "width": "600px"
+      }
+    ],
+    "group_images": false,
+    "paragraphs": [
+      "AI-based systems can improve interactions between humans and machines, as well as between humans themselves. For instance, a system can highlight important statements during a spoken conversation to ensure that the speakers don't miss crucial information. Another system can search for ads relevant to the topic of the conversation between users, making the ads more appealing to the users. These systems have the potential to influence user behavior and mindset."
+    ],
+    "related_heading": "Related work",
+    "related_work": [
+      {
+        "id": "journal-02",
+        "overrides": {
+          "authors": "Hikaru Matsuzaki, Tomoyuki Maekawa, Michita Imai, Kentaro Ishii,"
+        }
+      },
+      {
+        "id": "international-04"
+      },
+      {
+        "id": "journal-04"
+      },
+      {
+        "id": "international-06"
+      },
+      {
+        "id": "international-08"
+      }
+    ]
+  },
+  {
+    "title": "Human preference prediction",
+    "images": [
+      {
+        "src": "imgs/preference.jpg",
+        "alt": "Eye movement trajectories overlaid on 12 ukiyo-e paintings. Six highly rated paintings and six poorly rated paintings were chosen.",
+        "width": "600px"
+      }
+    ],
+    "group_images": false,
+    "paragraphs": [
+      "Humans need to be able to predict the likes and desires of others in order to form and maintain social relationships. It's surprising that humans can accurately predict an individual's preferences by observing their responses to just a few items. I am exploring how humans select samples and adjust their mental models of others' preferences."
+    ],
+    "related_heading": "Related work",
+    "related_work": [
+      {
+        "id": "international-01"
+      },
+      {
+        "id": "international-07"
+      },
+      {
+        "id": "international-09"
+      }
+    ]
+  },
+  {
+    "title": "Cognitive science of watching sports",
+    "images": [
+      {
+        "src": "imgs/sports.png",
+        "alt": "A sequence of frames from a volleyball video in which the teams' winning probabilities were displayed.",
+        "width": "600px"
+      }
+    ],
+    "group_images": false,
+    "paragraphs": [
+      "Sports can be seen as a probabilistic process. Before a game starts, it is uncertain which team will win. The probability of winning changes as the game progresses. At the end of the game, spectators know which team has won. I am studying the connection between the change in winning probability and the level of interest spectators have in watching the game."
+    ],
+    "related_heading": "Related work",
+    "related_work": [
+      {
+        "id": "international-10"
+      },
+      {
+        "id": "international-11"
+      },
+      {
+        "id": "international-12"
+      }
+    ]
+  }
+]

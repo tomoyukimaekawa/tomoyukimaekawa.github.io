@@ -1,0 +1,10 @@
+
+    .horizontal-center {
+        display: grid;
+        justify-items: center;
+        align-content: start;
+    }
+
+    img {
+        vertical-align: top;
+    }

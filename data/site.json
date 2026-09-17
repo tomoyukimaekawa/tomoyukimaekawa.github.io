@@ -1,0 +1,18 @@
+{
+  "title": "Tomoyuki MAEKAWA",
+  "heading": "Dr. Tomoyuki MAEKAWA",
+  "navigation": [
+    {
+      "href": "./index.html",
+      "text": "Home"
+    },
+    {
+      "href": "./research.html",
+      "text": "Research"
+    },
+    {
+      "href": "./publications.html",
+      "text": "Publications"
+    }
+  ]
+}
