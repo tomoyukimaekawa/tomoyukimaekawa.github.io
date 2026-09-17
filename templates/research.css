@@ -2,9 +2,22 @@
     .horizontal-center {
         display: grid;
         justify-items: center;
-        align-content: start;
+        margin: 24px 0;
+    }
+
+    .horizontal-center > div {
+        display: flex;
+        flex-wrap: wrap;
+        align-items: flex-start;
+        justify-content: center;
+        gap: 16px;
+        max-width: 100%;
     }
 
     img {
-        vertical-align: top;
+        display: block;
+        max-width: 100%;
+        height: auto;
     }
+
+    section > h3 { margin: 28px 0 16px; }

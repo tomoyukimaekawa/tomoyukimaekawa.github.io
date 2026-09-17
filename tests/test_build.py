@@ -1,6 +1,6 @@
 """Guard the reviewed content, DOM structure, attributes, order and CSS.
 
-The baseline hashes represent the reviewed HTML after English proofreading. Ignore formatting whitespace and normalize optional </li> tags,
+The baseline hashes represent the reviewed HTML after the public information additions. Ignore formatting whitespace and normalize optional </li> tags,
 but retain every element, text value and attribute (including image alt text).
 If intentionally changing published content later, review/update the baseline.
 """

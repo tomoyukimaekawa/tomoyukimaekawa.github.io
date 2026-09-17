@@ -336,6 +336,39 @@
       "authors": "前川知行, 高野渉, 中村仁彦,",
       "title": "\"CECESSモデルによる文脈の可視化と予測,\"",
       "publication": "第33回日本ロボット学会学術講演会, 2B2-08, 2015."
+    },
+    "jsai-os14-report-2025": {
+      "authors": "Yosuke Fukuchi, Tomoyuki Maekawa, Kazunori Terada, Seiji Yamada, and Michita Imai,",
+      "title": "\"OS-14「信頼と納得の人─ AI インタラクション」,\"",
+      "publication": "Journal of the Japanese Society for Artificial Intelligence, vol. 40, no. 6, p. 916, 2025. (Session report; in Japanese.)",
+      "link": {
+        "text": "[Link]",
+        "href": "https://www.ai-gakkai.or.jp/published_books/journals_of_jsai/past_journals/in2025/vol40_no6/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    "scains-presenter-overview-2025": {
+      "authors": "Tomoyuki Maekawa,",
+      "title": "\"会話を聞き逃してもポイントを教えてくれる人工知能（AI）システム,\"",
+      "publication": "Haikan Gijutsu, vol. 67, no. 5, pp. 20-24, 2025. (Technical overview; in Japanese.)",
+      "link": {
+        "text": "[Link]",
+        "href": "https://www.nikko-pb.co.jp/products/detail.php?product_id=5939",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
+    },
+    "jsai-os6-report-2024": {
+      "authors": "Kazunori Terada, Tomoyuki Maekawa, Michita Imai, and Seiji Yamada,",
+      "title": "\"OS-6「信頼と文脈のインタラクションデザイン」,\"",
+      "publication": "Journal of the Japanese Society for Artificial Intelligence, vol. 39, no. 6, p. 892, 2024. (Session report; in Japanese.)",
+      "link": {
+        "text": "[Link]",
+        "href": "https://www.ai-gakkai.or.jp/published_books/journals_of_jsai/past_journals/in2024/vol39_no6/",
+        "target": "_blank",
+        "rel": "noopener noreferrer"
+      }
     }
   },
   "categories": [
@@ -399,6 +432,14 @@
         "domestic-28",
         "domestic-29",
         "domestic-30"
+      ]
+    },
+    {
+      "title": "Other Publications",
+      "publications": [
+        "jsai-os14-report-2025",
+        "scains-presenter-overview-2025",
+        "jsai-os6-report-2024"
       ]
     }
   ]

@@ -72,10 +72,11 @@ def render_home(sections):
 def citation(entry):
     if set(entry) - {'authors', 'title', 'publication', 'link'}:
         raise ValueError(f'Unknown citation fields: {entry}')
-    content = ' '.join(text(entry[key]) for key in ('authors', 'title', 'publication'))
+    content = (text(entry['authors']) + ' <span class="citation-title">'
+               + text(entry['title']) + '</span> ' + text(entry['publication']))
     if 'link' in entry:
         content += ' ' + link(entry['link'])
-    return '<p>' + content + '</p>'
+    return '<p class="citation">' + content + '</p>'
 
 
 def render_publications(data):
@@ -123,7 +124,9 @@ def build():
     contents = (render_home(home), render_research(research, publications['entries']), render_publications(publications))
     return {name: template.substitute(
         title=text(site['title']), heading=text(site['heading']),
-        navigation=' | '.join(map(link, site['navigation'])),
+        navigation=' '.join(link(item).replace('<a ', '<a aria-current="page" ', 1)
+                            if item['href'] == './' + name else link(item)
+                            for item in site['navigation']),
         styles=styles + (research_styles if name == 'research.html' else ''), content=content)
         for name, content in zip(PAGES, contents)}
 

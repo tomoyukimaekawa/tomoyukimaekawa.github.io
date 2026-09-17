@@ -8,8 +8,8 @@ Python 3.9以降を使用します。追加パッケージは不要です。
 
 | ファイル | 内容 |
 | --- | --- |
-| `data/home.json` | 所属、学歴、職歴、授業、受賞、助成、講演、学会活動、査読 |
-| `data/publications.json` | 全論文の書誌情報と業績一覧の分類・掲載順 |
+| `data/home.json` | 所属、学歴、職歴、授業、受賞、助成、講演、学会活動、査読、アウトリーチ、報道 |
+| `data/publications.json` | 論文・解説・報告記事の書誌情報と業績一覧の分類・掲載順 |
 | `data/research.json` | 研究テーマ、説明、画像、関連論文の参照 |
 | `data/site.json` | ページタイトル、共通見出し、ナビゲーション |
 | `templates/page.html` | 全ページ共通のHTMLレイアウト |
@@ -83,7 +83,7 @@ python3 -m unittest discover -s tests -v
 分類への未登録をテストします。ビルド自体も論文の重複登録、参照切れ、
 画像の欠落、JSONのキー重複などを検出し、全ページの生成に成功してから書き込みます。
 
-`tests/expected_fingerprints.json` は英文校正後の確認済みHTMLから取得した比較基準です。
+`tests/expected_fingerprints.json` は確認済みの最新HTMLから取得した比較基準です。
 整形用の空白と省略可能な閉じタグを除き、本文・要素・属性・CSSを比較します。
 **今後、意図的に公開内容やデザインを変更した場合**は、生成結果の差分と表示を
 確認したうえで、次のコマンドで比較基準を更新し、テストを再実行してください。
@@ -103,3 +103,5 @@ Path('tests/expected_fingerprints.json').write_text(
 PY
 python3 -m unittest discover -s tests -v
 ```
+
+公開情報に基づく追記の出典・英訳方針は [docs/content-sources.md](docs/content-sources.md) に記録しています。

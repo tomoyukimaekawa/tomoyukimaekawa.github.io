@@ -1,41 +1,151 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
   <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="format-detection" content="telephone=no">
   <title>Tomoyuki MAEKAWA</title>
   <style>
+    :root {
+        color-scheme: light;
+        --background: #fafafc;
+        --text: #2d3340;
+        --heading: #202735;
+        --accent: #365b86;
+        --line: #dfe3eb;
+    }
+
+    * { box-sizing: border-box; }
+
     body {
-        width: 800px;
-        margin: auto;
-        background-color: #E7E7EF;
+        max-width: 880px;
+        margin: 0 auto;
+        padding: 0 36px;
+        background: var(--background);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Noto Sans", sans-serif;
+        font-size: 16px;
+        line-height: 1.8;
+        overflow-wrap: anywhere;
+        -webkit-text-size-adjust: 100%;
     }
 
     header {
-        position: fixed;
-        top: 0;
-        background-color: #E7E7EF;
+        padding-top: 48px;
+        border-bottom: 1px solid var(--line);
     }
 
-    .headerhr {
-        width: 800px;
-        border: 0;
-        border-top: 3px solid #37373F;
+    h1, h2, h3 {
+        color: var(--heading);
+        line-height: 1.4;
     }
 
-    .main {
-        margin-top: 150px;
+    h1 {
+        margin: 0 0 24px;
+        font-family: Georgia, "Times New Roman", serif;
+        font-size: clamp(1.7rem, 4vw, 2.2rem);
+        font-weight: 500;
+        letter-spacing: -0.025em;
+    }
+
+    nav {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px 28px;
+    }
+
+    nav a {
+        display: inline-block;
+        padding: 10px 0 14px;
+        border-bottom: 2px solid transparent;
+        margin-bottom: -1px;
+        color: var(--text);
+        text-decoration: none;
+    }
+
+    nav a[aria-current="page"] {
+        border-color: var(--accent);
+        color: var(--accent);
+        font-weight: 600;
+    }
+
+    a {
+        color: var(--accent);
+        text-decoration-thickness: 1px;
+        text-underline-offset: 3px;
+    }
+
+    a:hover { text-decoration: underline; }
+
+    a:focus-visible {
+        outline: 2px solid var(--accent);
+        outline-offset: 5px;
+        border-radius: 2px;
+    }
+
+    .main { padding: 40px 0 64px; }
+
+    section + section {
+        margin-top: 36px;
+        padding-top: 32px;
+        border-top: 1px solid var(--line);
+    }
+
+    h2 {
+        margin: 0 0 20px;
+        font-size: 1.35rem;
+        font-weight: 650;
+        letter-spacing: -0.015em;
+    }
+
+    h3 {
+        margin: 0 0 6px;
+        font-size: 1rem;
+        font-weight: 650;
+    }
+
+    p { margin: 0 0 12px; }
+    p:last-child { margin-bottom: 0; }
+
+    ul, ol { margin: 0; padding-left: 1.5rem; }
+    li { padding-left: 6px; }
+    li + li { margin-top: 24px; }
+    li::marker { color: #687588; }
+    li p { margin-bottom: 4px; }
+
+    .citation { margin-bottom: 20px; }
+    .citation-title { font-weight: 600; }
+    .citation a { white-space: nowrap; }
+
+    @media (max-width: 600px) {
+        body { padding: 0 20px; }
+        header { padding-top: 28px; }
+        h1 { margin-bottom: 16px; }
+        nav { gap: 8px 24px; }
+        .main { padding: 28px 0 48px; }
+        section + section { margin-top: 28px; padding-top: 24px; }
+        h2 { font-size: 1.2rem; }
+        li { padding-left: 2px; }
+    }
+
+    @media print {
+        body { max-width: none; padding: 0; background: white; color: black; font-size: 11pt; }
+        header { padding-top: 0; }
+        nav { display: none; }
+        .main { padding: 24px 0 0; }
+        h2, h3 { break-after: avoid; }
+        li, .horizontal-center { break-inside: avoid; }
+        a { color: inherit; }
     }
   </style>
 </head>
 <body>
   <header>
     <h1>Dr. Tomoyuki MAEKAWA</h1>
-    <p><a href="./index.html">Home</a> | <a href="./research.html">Research</a> | <a href="./publications.html">Publications</a></p>
-    <hr class="headerhr">
+    <nav aria-label="Main navigation"><a aria-current="page" href="./index.html">Home</a> <a href="./research.html">Research</a> <a href="./publications.html">Publications</a></nav>
   </header>
 
-  <div class="main">
+  <main class="main">
     <section>
       <h2>Current Affiliation</h2>
 <p>Assistant Professor, Department of Computer Science, Faculty of Informatics, Shizuoka University</p>
@@ -64,6 +174,8 @@
     <section>
       <h2>Teaching Experience</h2>
 <ul>
+<li><h3>Shizuoka University</h3><p>Machine Learning — Contributing Instructor (Undergraduate Course)</p><p>Spring 2026 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=1/0" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>Shizuoka University</h3><p>Introduction to Domain Informatics (領域情報学概論) — Contributing Instructor (Master’s Course)</p><p>Spring 2026 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=1/0" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
 <li><h3>Shizuoka University</h3><p>Machine Learning</p><p>2024</p></li>
 <li><h3>Nihon University</h3><p>Practice in Information Science 2</p><p>2021 - 2022</p></li>
 </ul>
@@ -81,13 +193,14 @@
       <h2>Grants</h2>
 <ul>
 <li><h3>2025年 しのはら財団 研究助成</h3><p>AIチャットボットの持続的な利用を促す自己肯定的ユーザインタフェースの研究</p><p>2025 - 2026</p></li>
-<li><h3>CREST Colab</h3><p>Development and Evaluation of Manglish Automatic Question Generation and Scoring Technology (マンガリッシュ自動問題生成・採点技術の開発と評価)</p><p>Collaborative research with Dr. Satoshi Yazawa and Dr. Yuma Kadokura.</p><p>2023</p></li>
+<li><h3>CREST Colab</h3><p>Development and Evaluation of Manglish Automatic Question Generation and Scoring Technology (マンガリッシュ自動問題生成・採点技術の開発と評価)</p><p>Collaborative research with Dr. Satoshi Yazawa and Dr. Yuma Kadokura.</p><p>April 2023 - March 2024 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=0/6" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
 </ul>
     </section>
 
     <section>
       <h2>Talks</h2>
 <ul>
+<li><h3>25th Cognitive Communication Workshop</h3><p>"Improving Subjective Evaluations of Artificial Agents Through Response Suggestions That Express Gratitude"</p><p>August 2026 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=2/0" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
 <li><h3>CogSci 2026 Virtual Flash Talk</h3><p>"Is It Good to Say 'Thank You' to ChatGPT?"</p><p>2026</p></li>
 <li><h3>CogSci Meetup 2026 in Hamamatsu</h3><p>"Is It Good to Say 'Thank You' to ChatGPT?"</p><p>2026</p></li>
 <li><h3>ImAI Symposium: Symposium for Intelligent media and Advanced Interaction 2026</h3><p>"ChatGPT produces subjectively high-quality responses if you say 'Thank you' to her"</p><p>2026</p></li>
@@ -102,6 +215,21 @@
 <li><h3>JST CREST Imai/Yamada Team Joint Symposium 2024 "New Artificial Intelligence Brought About by Research on Trust and Context"</h3><p>"Identifying utterances that may cause discrepancies in conversation if overlooked"</p><p>2024</p></li>
 <li><h3>Sony CSL lab tour</h3><p>"Natural Language Representation of Context Using a Large Language Model"</p><p>2024</p></li>
 <li><h3>JST CREST Imai and Yamada Team Joint Symposium "New AI Brought About by Research on Trust and Context"</h3><p>"Computational mechanisms of context connection and their application to linguistic communication"</p><p>2022</p></li>
+</ul>
+    </section>
+
+    <section>
+      <h2>Academic Service</h2>
+<ul>
+<li><h3>IEEE RO-MAN 2026</h3><p>Associate Editor</p><p>2026 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=1&amp;t=27" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>ACM IUI 2026</h3><p>Program Committee Member</p><p>2026 <a href="https://iui.acm.org/2026/pc-members/" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>CogSci Meetup 2026 in Hamamatsu</h3><p>Co-organizer</p><p>2026 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=1&amp;t=27" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>JSAI 2026</h3><p>Co-organizer, OS-4: Trust-Based Interaction and Theory of Mind for Human–AI Collaborative Decision-Making</p><p>2026 <a href="https://conf.ai-gakkai.or.jp/jsai2026/os/" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>CogSci Meetup 2025 in Hamamatsu</h3><p>Co-organizer</p><p>2025 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=1&amp;t=27" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>ACM IUI 2025</h3><p>Program Committee Member</p><p>2025 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=1&amp;t=27" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>JSAI 2025</h3><p>Co-organizer, OS-14: Human–AI Interaction for Trust and Acceptance</p><p>2025 <a href="https://www.ai-gakkai.or.jp/jsai2025/os/" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>CogSci Meetup 2024 in Hamamatsu</h3><p>Co-organizer</p><p>2024 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=1&amp;t=27" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>JSAI 2024</h3><p>Co-organizer, OS-6: Interaction Design for Trust and Context</p><p>2024 <a href="https://www.ai-gakkai.or.jp/published_books/journals_of_jsai/past_journals/in2024/vol39_no6/" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
 </ul>
     </section>
 
@@ -133,6 +261,21 @@
 <li><p>International Journal of Sports Economics</p></li>
 </ul>
     </section>
-  </div>
+
+    <section>
+      <h2>Outreach</h2>
+<ul>
+<li><h3>Shizuoka University Summer Open Campus</h3><p>Mini-lecture: "How Can We Make the Most of AI’s Language Abilities? A Case Study of Semantic Plausibility Judgments"</p><p>August 2025 <a href="https://www.inf.shizuoka.ac.jp/cms_wp/wp-content/uploads/2025/10/joykaze35_final.pdf" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+<li><h3>Shimizu Higashi High School</h3><p>School–University Outreach: "Research, Education, and Admissions in the Department of Computer Science"</p><p>October 2024 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=2/0" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+</ul>
+    </section>
+
+    <section>
+      <h2>Media Coverage</h2>
+<ul>
+<li><h3>Nikkan Kogyo Shimbun</h3><p>Coverage of SCAINs Presenter, an AI system developed by Keio University and collaborators that highlights key information missed during remote meetings.</p><p>September 10, 2024 <a href="https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&amp;l=0&amp;ex=all&amp;a2=2/1" target="_blank" rel="noopener noreferrer">[Link]</a></p></li>
+</ul>
+    </section>
+  </main>
 </body>
 </html>
