@@ -7,18 +7,18 @@ translations, not claims that these are the officially registered English titles
 
 | Additions | Source |
 | --- | --- |
-| RO-MAN 2026 Associate Editor; IUI 2025 PC member; CogSci Meetup organizers in 2024–2026 | [Shizuoka University: academic service](https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&l=1&t=27) |
+| RO-MAN 2026 Associate Editor; IUI 2025 PC member; CogSci Meetup organizers in 2024–2026 | Shizuoka University: academic service |
 | IUI 2026 PC member | [Conference committee](https://iui.acm.org/2026/pc-members/) |
 | JSAI 2026 OS-4 co-organizer | [Conference sessions](https://conf.ai-gakkai.or.jp/jsai2026/os/) |
 | JSAI 2025 OS-14 co-organizer | [Conference sessions](https://www.ai-gakkai.or.jp/jsai2025/os/) |
 | JSAI 2024 OS-6 co-organizer and report | [Society journal contents](https://www.ai-gakkai.or.jp/published_books/journals_of_jsai/past_journals/in2024/vol39_no6/) |
 | JSAI 2025 OS-14 report | [Society journal contents](https://www.ai-gakkai.or.jp/published_books/journals_of_jsai/past_journals/in2025/vol40_no6/) |
-| SCAINs Presenter technical overview | [Publisher](https://www.nikko-pb.co.jp/products/detail.php?product_id=5939), [university bibliography](https://tdb.shizuoka.ac.jp/rdb/public/Default2.aspx?id=11384&l=0&t=18) |
-| Machine Learning and 領域情報学概論, spring 2026, 副担当 | [University teaching records, expanded](https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&l=0&ex=all&a2=1/0) |
-| 25th Cognitive Communication Workshop talk, August 2026; Shimizu Higashi High School outreach, October 2024 | [University event records, expanded](https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&l=0&ex=all&a2=2/0) |
+| SCAINs Presenter technical overview | [Publisher](https://www.nikko-pb.co.jp/products/detail.php?product_id=5939), university bibliography |
+| Machine Learning and 領域情報学概論, spring 2026, 副担当 | University teaching records, expanded |
+| 25th Cognitive Communication Workshop talk, August 2026; Shimizu Higashi High School outreach, October 2024 | University event records, expanded |
 | Summer Open Campus mini-lecture, August 2025 | [Faculty newsletter](https://www.inf.shizuoka.ac.jp/cms_wp/wp-content/uploads/2025/10/joykaze35_final.pdf) |
-| Nikkan Kogyo Shimbun coverage, September 10, 2024 | [University media records, expanded](https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&l=0&ex=all&a2=2/1) |
-| CREST Colab, April 2023–March 2024 | [University funding records, expanded](https://tdb.shizuoka.ac.jp/RDB/public/Default2.aspx?id=11384&l=0&ex=all&a2=0/6) |
+| Nikkan Kogyo Shimbun coverage, September 10, 2024 | University media records, expanded |
+| CREST Colab, April 2023–March 2024 | University funding records, expanded |
 
 The university's expanded record was inspected directly in the browser; the record
 showed a last-updated date of 2026-09-04. Search caches sometimes returned older versions.
